@@ -50,5 +50,5 @@ The instance must respond to `date(year)` and return a date or array of dates.
     end
 
     holidays = ConcreteHolidays.new
-    holidays.add_holiday HolidayService.new
+    holidays.add_holiday MyBirthday.new
     holidays.holiday?(date)
