@@ -25,6 +25,14 @@ module ConcreteHolidays::Calculations
       from_date
     end
 
+    def the_next(day_symbol, from_date)
+      loop do
+        from_date += 1
+        break if from_date.wday == wday_from_symbol(day_symbol)
+      end
+      from_date
+    end
+
     def wday_from_symbol(symbol)
       WDAY_SYMBOLS.fetch(symbol)
     end
