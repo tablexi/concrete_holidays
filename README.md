@@ -8,14 +8,14 @@ The ConcreteHolidays gem was built to calculate if a given date is a holiday usi
 
     class MyHolidays < ConcreteHolidays
       def default_holidays
-        add_holiday ConcreteHolidays::NewYearsDay
+        add_holiday ConcreteHolidays::NewYearsDayObserved
         add_holiday ConcreteHolidays::MemorialDay
-        add_holiday ConcreteHolidays::IndependenceDay
+        add_holiday ConcreteHolidays::IndependenceDayObserved
         add_holiday ConcreteHolidays::LaborDay
         add_holiday ConcreteHolidays::Thanksgiving
         add_holiday ConcreteHolidays::BlackFriday
         add_holiday ConcreteHolidays::ChristmasEve
-        add_holiday ConcreteHolidays::Christmas
+        add_holiday ConcreteHolidays::ChristmasObserved
         add_holiday ConcreteHolidays::NewYearsEve
       end
     end
