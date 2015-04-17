@@ -1,3 +1,6 @@
+require 'concrete_holidays/calculations'
+require 'concrete_holidays/holidays'
+
 class ConcreteHolidays
   attr_reader :holidays
 
@@ -27,6 +30,6 @@ class ConcreteHolidays
   end
 
   def holidays_in_year(year)
-    @cache_by_year[year] ||= @holidays.flat_map { |holiday| holiday.date(year) }
+    @cache_by_year[year] ||= holidays.flat_map { |holiday| holiday.date(year) }
   end
 end

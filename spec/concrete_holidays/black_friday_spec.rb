@@ -1,7 +1,3 @@
-require 'concrete_holidays'
-require 'concrete_holidays/calculations'
-require 'concrete_holidays/black_friday'
-
 RSpec.describe ConcreteHolidays::BlackFriday do
   let(:holiday) { ConcreteHolidays::BlackFriday }
 

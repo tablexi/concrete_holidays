@@ -1,6 +1,3 @@
-require 'concrete_holidays'
-require 'concrete_holidays/new_years_day'
-
 RSpec.describe ConcreteHolidays::NewYearsDay do
   let(:holiday) { ConcreteHolidays::NewYearsDay }
   let(:year) { 2015 }

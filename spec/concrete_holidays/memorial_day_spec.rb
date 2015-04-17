@@ -1,7 +1,3 @@
-require 'concrete_holidays'
-require 'concrete_holidays/calculations'
-require 'concrete_holidays/memorial_day'
-
 RSpec.describe ConcreteHolidays::MemorialDay do
   let(:holiday) { ConcreteHolidays::MemorialDay }
 
