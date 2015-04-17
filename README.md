@@ -1,4 +1,4 @@
-# ConcreteHolidays ![Build Status](https://travis-ci.org/tablexi/concrete-holidays.svg)
+# ConcreteHolidays ![Build Status](https://travis-ci.org/tablexi/concrete-holidays.svg?branch=master)
 
 The ConcreteHolidays gem was built to calculate if a given date is a holiday using plain old ruby objects.
 
