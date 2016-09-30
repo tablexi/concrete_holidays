@@ -2,20 +2,20 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    rake (10.1.0)
-    rspec (3.2.0)
-      rspec-core (~> 3.2.0)
-      rspec-expectations (~> 3.2.0)
-      rspec-mocks (~> 3.2.0)
-    rspec-core (3.2.3)
-      rspec-support (~> 3.2.0)
-    rspec-expectations (3.2.1)
+    rake (11.3.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.3)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-mocks (3.2.1)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.2.0)
-    rspec-support (3.2.2)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
 
 PLATFORMS
   ruby
@@ -23,3 +23,6 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
+
+BUNDLED WITH
+   1.13.2
